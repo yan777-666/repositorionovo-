@@ -2,7 +2,7 @@ programa{
 	funcao inicio()	{
 		real quanti = 0.0, total = 0.0
 		inteiro opcao 
-    	escreva("titulo: Pastelaria do Yan")
+    	escreva("titulo: Pastelaria do Yan - versao 2")
 		faca{
 			escreva("\n 1° x-salada: R$12,50")
 			escreva("\n 2° x-bacon: R$13,50")
