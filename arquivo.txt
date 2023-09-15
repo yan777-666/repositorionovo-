@@ -1,0 +1,54 @@
+programa{
+	funcao inicio()	{
+		real quanti = 0.0, total = 0.0
+		inteiro opcao 
+    	escreva("titulo: Pastelaria do Yan")
+		faca{
+			escreva("\n 1° x-salada: R$12,50")
+			escreva("\n 2° x-bacon: R$13,50")
+			escreva("\n 3° x-egg: R$14,00")
+      escreva("\n 4° refrigerante: R$7,00")
+      escreva("\n 5 finalizar pedido!!")
+			escreva("\n Digite o numero do seu pedido: ")
+			leia(opcao)
+			escolha (opcao){
+				caso 1: 
+        escreva("Digite a quantidade do item: ")
+        leia(quanti)
+			 		total = total + (quanti * 12.50)
+			 	pare
+			 	caso 2: 
+        escreva("Digite a quantidade do item: ")
+        leia(quanti)
+			 	total = total + (quanti * 13.50)
+			 	pare
+			 	caso 3: 
+			 	escreva("Digite a quantidade do item: ")
+        leia(quanti)
+        total = total + (quanti * 14.00 )
+			 	pare
+
+        	caso 4: 
+			 	escreva("Digite a quantidade do item: ")
+        leia(quanti)
+        total = total + (quanti * 7.00)
+			 	pare
+
+         	caso 5: 
+			 	escreva("Pedido finalizado!!! valor total: ", total)
+       
+			 	pare
+			 	
+			 	caso contrario:
+			 	escreva("Voce digitou um numero invalido \n\n")
+        escreva("")
+			}			 
+		}
+		enquanto(opcao != 5)
+
+
+	
+		}
+	}
+}
+
